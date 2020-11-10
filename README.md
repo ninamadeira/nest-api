@@ -33,8 +33,7 @@ npm run start dev
 
 http://localhost:3000/graphql
 
-
-Criação de um usuário:
+### Criação de um usuário:
 mutation{
     createUser(
       data: {
@@ -49,7 +48,7 @@ mutation{
   }
 }
 
-Listar todos usuários:
+### Listar todos usuários:
 {
   users{
     id
@@ -58,7 +57,7 @@ Listar todos usuários:
   }
 }
 
-Buscar usuário pelo id:
+### Buscar usuário pelo id:
 {
   user(
     id: "1"
@@ -69,7 +68,7 @@ Buscar usuário pelo id:
   }
 }
 
-Atualizar usuário pelo id:
+### Atualizar usuário pelo id:
 mutation{
   updateUser(
     id: "1"
@@ -84,7 +83,7 @@ mutation{
   }
 }
 
-Excluir usuário pelo id:
+### Excluir usuário pelo id:
 mutation{
   deleteUser(
     id: "2") 
