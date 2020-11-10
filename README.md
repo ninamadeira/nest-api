@@ -7,12 +7,16 @@ npm install -g @nestjs/cli
 nest new nome
 
 ### Integrando Nest com TypeORM e Postgres
+```
 npm install --save @nestjs/typeorm typeorm pg
+```
 
 ### GraphQL
+```
 npm i @nestjs/graphql graphql-tools graphql
 
 npm i @nestjs/graphql graphql-tools graphql apollo-server-express
+```
 
 ### Criar o módulo user
 nest g module user
@@ -24,16 +28,21 @@ nest g service user
 nest g r user
 
 ### Instalação da validação
+```
 npm install class-validator
 
 npm install class-transformer
+```
 
 ### Testar aplicação no playground
+```
 npm run start dev
 
 http://localhost:3000/graphql
+```
 
 ### Criação de um usuário:
+```
 mutation{
     createUser(
       data: {
@@ -47,8 +56,9 @@ mutation{
     email
   }
 }
-
+```
 ### Listar todos usuários:
+```
 {
   users{
     id
@@ -56,8 +66,9 @@ mutation{
     email
   }
 }
-
+```
 ### Buscar usuário pelo id:
+```
 {
   user(
     id: "1"
@@ -67,8 +78,9 @@ mutation{
     email
   }
 }
-
+```
 ### Atualizar usuário pelo id:
+```
 mutation{
   updateUser(
     id: "1"
@@ -82,9 +94,11 @@ mutation{
     email
   }
 }
-
+```
 ### Excluir usuário pelo id:
+```
 mutation{
   deleteUser(
     id: "2") 
 }
+```
