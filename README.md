@@ -1,10 +1,14 @@
 # Cadastro de Usuários em NestJS e GraphQL
 
 ### Instalando o Nest globalmente.
+```
 npm install -g @nestjs/cli
+```
 
 ### Criar uma aplicação
+```
 nest new nome
+```
 
 ### Integrando Nest com TypeORM e Postgres
 ```
@@ -19,13 +23,19 @@ npm i @nestjs/graphql graphql-tools graphql apollo-server-express
 ```
 
 ### Criar o módulo user
+```
 nest g module user
+```
 
 ### Criar o service user
+```
 nest g service user
+```
 
 ### Criar o resolver user
+```
 nest g r user
+```
 
 ### Instalação da validação
 ```
