@@ -6,11 +6,12 @@ npm install -g @nestjs/cli
 ### Criar uma aplicação
 nest new nome
 
-###Integrando Nest com TypeORM e Postgres
+### Integrando Nest com TypeORM e Postgres
 npm install --save @nestjs/typeorm typeorm pg
 
 ### GraphQL
 npm i @nestjs/graphql graphql-tools graphql
+
 npm i @nestjs/graphql graphql-tools graphql apollo-server-express
 
 ### Criar o módulo user
@@ -24,6 +25,7 @@ nest g r user
 
 ### Instalação da validação
 npm install class-validator
+
 npm install class-transformer
 
 ### Testar aplicação no playground
